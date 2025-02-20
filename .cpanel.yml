@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cyversei/public_html/staging.cyverse.io/
+    - /bin/cp index.html $DEPLOYPATH
